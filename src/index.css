@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "General Sans";
+}
+
+::-moz-placeholder {
+  color: #fada5e;
+  opacity: 1;
+}
+.kanajiBtn {
+  transition: all;
+}
+
+.orderBtn {
+  position: relative;
+  /* transform-origin: center;
+  transition: all 0.4s linear; */
+  z-index: 1;
+}
+
+/* .orderBtn:hover {
+  background-color: #ecc97a;
+} */
+
+/* .orderBtn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 120%;
+  width: 100%;
+  background-color: #fada5e;
+  bottom: 0;
+  left: 0;
+  transform: translateY(3.5vw);
+  border-radius: 8px 8px 0px 0px;
+  transition: transform 0.3s linear;
+}
+
+.orderBtn:hover::before {
+  transform: translateY(0vw);
+} */
